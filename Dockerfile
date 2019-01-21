@@ -1,4 +1,4 @@
-FROM nginx:1.10.2
+FROM meiremans/official-docker-nginx-without-exposed-port-80
 MAINTAINER Kyle Mathews "mathews.kyle@gmail.com"
 
 RUN rm /etc/nginx/nginx.conf /etc/nginx/mime.types
